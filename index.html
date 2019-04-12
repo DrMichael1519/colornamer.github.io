@@ -24,6 +24,10 @@ h1 {font-family: Arial, sans-serif; line-height: 0.85em; border-bottom: 2px soli
 input, #input a {font: 0.85em "Andale Mono", Courier, monospace;}
 #input, #output {margin: 0 0 1em;}
 
+	#cape {
+		size="19px"
+	}
+	
 #input td {white-space: nowrap;}
 #input a {border: 2px outset silver; background: silver; padding: 1px 0.25em; cursor: pointer;}
 #input .coltype {background: #EEE; border-style: inset;}
@@ -320,7 +324,7 @@ function init(inp) {
 
 <table id="output">
 <tr>
-<th size="19">Middle is Cape Color</th>
+<th id="cape">Middle is Cape Color</th>
 <td class="text"><input type="text" id="pal0" size="19" /></td>
 <td class="pal" id="p0">&nbsp;</td>
 </tr>
@@ -401,6 +405,7 @@ document.write('<\/table>');
 </script>
 
 </td>
+	
 <td id="textcell">
 
 <ul>
